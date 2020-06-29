@@ -31,6 +31,9 @@ header,.main, footer{
 .container1{
     background: url('../img/CONTAINER1.png') top 96px center no-repeat;
     width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    height: 100vh;
 }
 
 .Titulo{
