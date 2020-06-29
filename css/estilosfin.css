@@ -27,6 +27,9 @@ header,.main, footer{
     font-size: 50px;
     width: 100%;
 }
+element.style{
+    top: 45vh;
+}
 
 .container1{
     background: url('../img/CONTAINER1.png') center center no-repeat;
@@ -63,11 +66,6 @@ header,.main, footer{
     font-size: 26px;
 }
 
-.img {
-    position: absolute;
-    transform: translate(-50%, -50%);
-}
-
 .Txtbox1{
     padding: 10px 60px;
     opacity: 80%;
@@ -80,18 +78,24 @@ header,.main, footer{
     padding: 10px 50px;
 }
 
-.Titulo,.Texto, .boton, .Txtbox1, .Txtbox2{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    text-align: center;
+.Titulo,.Texto, .boton, .Txtbox2{
 }
 
-.Txtbox1, .Txtbox2, .boton {
+.Txtbox2, .boton {
     background-color: black;
     border: none;
     color: white;
     text-decoration: none;
     display: inline-block;
+    border-radius: 25px;
+    margin: 4px 4px;
+}
+
+.Txtbox1{
+    background-color: black;
+    border: none;
+    color: white;
+    text-decoration: none;
     border-radius: 25px;
     margin: 4px 4px;
 }
